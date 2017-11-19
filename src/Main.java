@@ -25,9 +25,12 @@ public class Main {
 
     public static void main(String[] args) {
 
+        String time = "22:45";
+
+        String date = "2017-11-15";
 
         // uses this pattern for time from hh:mm and date yyyy-mm-dd
-        System.out.println(dateAlgorithem(splitTime(generalTime("22:45")), splitDate("2017-11-15")));
+        System.out.println(dateAlgorithem(splitTime(generalTime(time)), splitDate(date)));
     }
 
 
